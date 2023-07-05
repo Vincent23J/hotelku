@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailActivity"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    android:backgroundTintMode="src_atop"
+    android:backgroundTint="#7CFFFFFF"
+    android:background="@drawable/backgrunddet">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_nama1"
+                android:text="Nama Hotel"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/rtb_rating"
+                android:progressTint="#FFEB00"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_bintang1"
+                android:text="Bintang Hotel"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_telepon1"
+                android:text="Nomor Telepon Hotel"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_alamat1"
+                android:text="Alamat Hotel"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_utlmap1"
+                android:text="URL Map Hotel"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_deskripsi1"
+                android:text="Deskripsi Hotel"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
